@@ -1,0 +1,39 @@
+.Cards{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+.Loader{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Loader .TitleLoader {
+    color: #dbb405;
+    letter-spacing: 0.1em;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 600px;
+    text-align: center;
+}
+.Loader .TitleLoaderLow {
+    color: #dbb405;
+    letter-spacing: 0.1em;
+    font-size: 25px;
+    margin-bottom: 30px;
+    width: 600px;
+    text-align: center;
+}
+
+.Loader .Image {
+    width: 450px;
+    align-self: center;
+    margin-right: 80px;
+}

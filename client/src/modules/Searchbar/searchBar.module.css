@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'KoHo', sans-serif;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search input {
+    margin:5px;
+    height: 30px;
+}
+
+.text{
+    border-radius: 50px;
+    text-align: center;
+}
+.text:focus{
+    border: 2px solid #947d30;
+    outline: none;
+}
+
+.button{
+    font-weight: 600;
+    background-color:#dbb405 ;
+    text-align: center;
+    letter-spacing: 0.03em;
+    width: 52px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.button:active{
+    background-color:#947d30 ;
+    transition: 0.15s;
+}
+
+.button:hover{
+    transform: translateX(2px);
+    transition: 0.5s;
+}

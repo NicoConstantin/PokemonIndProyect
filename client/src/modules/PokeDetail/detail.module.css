@@ -1,0 +1,77 @@
+.container{
+    background-image: url('https://i.pinimg.com/originals/49/21/56/492156f7467dc00a1a76cffe2f8a991c.jpg');
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    min-height: 59.5vh;
+}
+.bigcard{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items:center;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 40px;
+    padding: 20px;
+    border-radius: 50px;
+    width: 1000px;
+    height: 480px;
+    transition: all 0.3s;
+    box-shadow: -2px 2px 2px rgba(255, 255, 255, 0.2);
+}
+.image{
+    border-radius: 50px;
+    transition: all 0.5s;
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.image:hover{
+    width: 460px;
+    height: 460px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: center;
+    margin-right: 50px;
+    font-size: 28px;
+    color: #d1c9a2;
+    width: 400px;
+}
+
+.info h2 {
+    color:#dbb405;
+    font-size: 45px;
+    font-weight: 800;
+}
+.info h2:hover{
+    transition: ease 0.3s;
+    transform: skewX(-10deg);
+    color:#db9b05;
+}
+
+.info p:hover{
+    transition: ease-in 0.3s;
+    transform: translateX(15px);
+    color: #db9b05;
+}
+
+.containergif{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    transition: all 0.3s;
+}
+.containerfail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color:#dbb405;
+    font-size: 25px;
+    transition: all 0.3s;
+}

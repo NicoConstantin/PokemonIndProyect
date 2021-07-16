@@ -1,0 +1,6 @@
+.home{
+    background-image: url('https://i.pinimg.com/originals/49/21/56/492156f7467dc00a1a76cffe2f8a991c.jpg');
+    display: flex;
+    flex-direction: column;
+    min-height: 59.5vh;
+}

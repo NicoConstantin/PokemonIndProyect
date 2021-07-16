@@ -1,0 +1,25 @@
+.pagination{
+    align-self: center;
+    margin: 20px;
+}
+
+.button{
+    margin: 7px;
+    font-weight: 600;
+    background-color:#dbb405 ;
+    text-align: center;
+    letter-spacing: 0.03em;
+    width: 30px;
+    height: 25px;
+    border-radius: 50px;
+    border: black;
+}
+.button:active{
+    background-color:#947d30 ;
+}
+
+.button:hover{
+    text-align: center;
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
